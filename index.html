@@ -5,110 +5,317 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Murecho:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
-      <a class="logo" href="./">
-        <img
-          class="logo-img"
-          src="./img/logo.svg"
-          alt="logo"
-          width="83"
-          height="85"
-        />
-        <span class="logo-word">LEMON</span> WHALES
-      </a>
-      <nav class="nav-menu">
-        <ul class="menu-list">
-          <li class="menu-item"><a href="" class="menu-link">SERVICES</a></li>
-          <li class="menu-item"><a href="" class="menu-link">PORTFOLIO</a></li>
-          <li class="menu-item"><a href="" class="menu-link">ABOUT</a></li>
-          <li class="menu-item"><a href="" class="menu-link">CONTACT</a></li>
-        </ul>
-      </nav>
+      <div class="header-container container">
+        <a class="logo" href="./">
+          <img
+            class="logo-img"
+            src="./img/logo.svg"
+            alt="logo"
+            width="83"
+            height="85"
+          />
+          <span class="logo-word">LEMON</span> WHALES
+        </a>
+        <nav class="nav-menu">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="" class="menu-link">SERVICES</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">PORTFOLIO</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">ABOUT</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- MAIN CONTENT -->
     <main class="main">
       <!-- SECTION HERO -->
       <section class="hero">
-        <h1 class="hero-title">WE PROVIDE THE BEST MOBILE SOLUTION FOR YOU</h1>
+        <div class="hero-container container">
+          <div class="container-title">
+            <h1 class="hero-title">
+              WE PROVIDE THE BEST MOBILE SOLUTION FOR YOU
+            </h1>
+          </div>
+        </div>
       </section>
       <!-- SECTION SERVICE -->
       <section class="services">
-        <h2 class="services-title">OUR SERVICES</h2>
-        <img
-          class="services-img"
-          src="./img/services/mobil.jpg"
-          alt="Мобільний телефон на якому зображенно додаток"
-          width="650"
-          height="930"
-        />
-        <ul class="services-list">
-          <li class="services-item">
-            <h3 class="services-subtitle">Mobile Application Design</h3>
-            <p class="services-subtext">
-              To build an effective mobile UI, designers have to consider
-              aspects like defining their users and the way they think,
-              understand UI design patterns, be able to work with various design
-              tools and come up with a unique aesthetic that meets project
-              requirements.
-            </p>
-          </li>
-          <li class="services-item">
-            <h3 class="services-subtitle">Mobile Application Consultation</h3>
-            <p class="services-subtext">
-              Our experienced consultants provide comprehensive documentation,
-              conceptual advice, and practical assistance to help you make your
-              mobile app plans a reality.
-            </p>
-          </li>
-          <li class="services-item">
-            <h3 class="services-subtitle">
-              Mobile Application Support and Maintainance
-            </h3>
-            <p class="services-subtext">
-              We offer options with seemingly every feature pre packaged. It can
-              be difficult to know how they best align with your business needs.
-              Before pricing and looking into different vendors it’s important
-              to figure out what type of custom support process your business
-              and customers require and will benefit from most.
-            </p>
-          </li>
-          <li class="services-item">
-            <h3 class="services-subtitle">Mobile Application Development</h3>
-            <p class="services-subtext">
-              Mobile application development is necessary for most enterprises.
-              When you build your application with both operating systems in
-              mind, try to make judicious use of APIs and understand the
-              specifics of the required developer programs. That approach will
-              help you deliver to your users an app that’s flexible, convenient
-              and lightweight—the perfect way to serve information or
-              services—along with an excellent user experience.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="services-title">OUR SERVICES</h2>
+          <div class="services-container">
+            <img
+              class="services-img"
+              src="./img/services/mobil.jpg"
+              alt="Мобільний телефон на якому зображенно додаток"
+              width="650"
+              height="930"
+            />
+            <ul class="services-list">
+              <li class="services-item">
+                <h3 class="services-subtitle">Mobile Application Design</h3>
+                <p class="services-subtext">
+                  To build an effective mobile UI, designers have to consider
+                  aspects like defining their users and the way they think,
+                  understand UI design patterns, be able to work with various
+                  design tools and come up with a unique aesthetic that meets
+                  project requirements.
+                </p>
+              </li>
+              <li class="services-item">
+                <h3 class="services-subtitle">
+                  Mobile Application Consultation
+                </h3>
+                <p class="services-subtext">
+                  Our experienced consultants provide comprehensive
+                  documentation, conceptual advice, and practical assistance to
+                  help you make your mobile app plans a reality.
+                </p>
+              </li>
+              <li class="services-item">
+                <h3 class="services-subtitle">
+                  Mobile Application Support and Maintainance
+                </h3>
+                <p class="services-subtext">
+                  We offer options with seemingly every feature pre packaged. It
+                  can be difficult to know how they best align with your
+                  business needs. Before pricing and looking into different
+                  vendors it’s important to figure out what type of custom
+                  support process your business and customers require and will
+                  benefit from most.
+                </p>
+              </li>
+              <li class="services-item">
+                <h3 class="services-subtitle">
+                  Mobile Application Development
+                </h3>
+                <p class="services-subtext">
+                  Mobile application development is necessary for most
+                  enterprises. When you build your application with both
+                  operating systems in mind, try to make judicious use of APIs
+                  and understand the specifics of the required developer
+                  programs. That approach will help you deliver to your users an
+                  app that’s flexible, convenient and lightweight—the perfect
+                  way to serve information or services—along with an excellent
+                  user experience.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
+      <!-- PORTFOLIO -->
       <section class="portfolio">
-        <h2 class="portfolio-title" hidden>portfolio</h2>
-        <ul class="portfolio-list">
-          <li class="portfolio-item">
-            <img class="portfolio-img" src="" alt="" width="450" height="480" />
-            <h3 class="portfolio-sudtitle"></h3>
-            <p class="portfolio-subtext"></p>
-          </li>
-          <li class="portfolio-item"></li>
-          <li class="portfolio-item"></li>
-        </ul>
+        <div class="container">
+          <h2 class="portfolio-title" hidden>portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./img/portfolio/Component.jpg"
+                alt="Телефон на якому можна побачити додаток"
+                width="450"
+                height="480"
+              />
+              <div class="portfolio-container">
+                <h3 class="portfolio-subtitle">TRACKING AND LOGISTICS</h3>
+                <p class="portfolio-subtext">
+                  The application we develop can be integrated with core
+                  operation systems to retrieve necessary information and this
+                  data is presented on the mobile’s front end. The mobile
+                  application serves as a competitive advantage for companies
+                  that provide logistic operations.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./img/portfolio/Component1.jpg"
+                alt="Стикери"
+                width="450"
+                height="480"
+              />
+              <div class="portfolio-container">
+                <h3 class="portfolio-subtitle">BOOKING AND RESERVATION</h3>
+                <p class="portfolio-subtext">
+                  The application aims at improving business revenue by reducing
+                  no shows through a ticketing system that allows business to
+                  take reservation deposits and prepayments.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <img
+                class="portfolio-img"
+                src="./img/portfolio/Component2.jpg"
+                alt="Телефон на якому можна побачити додаток"
+                width="450"
+                height="480"
+              />
+              <div class="portfolio-container">
+                <h3 class="portfolio-subtitle">EVENT MANAGEMENT</h3>
+                <p class="portfolio-subtext">
+                  The application is about synonymous with Innovation in the
+                  Virtual Events Industry and has a platform that is tailored
+                  towards providing its users with the desired ROI. And had the
+                  privilege of using the platform for a conference and with its
+                  technology and overall user-friendliness.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- ABOUT US -->
+      <section class="about">
+        <div class="container">
+          <div class="about-container">
+            <div class="about-box">
+              <h2 class="about-title">
+                <div>About</div>
+                LemonWhales
+              </h2>
+              <p class="about-subtext">
+                There are 6.8 billion people on the planet, 5.1 billion of whom
+                own a cell phone. And today, an ever-growing percentage of these
+                devices are smartphones. According to a recent Pew Research
+                Center Study, the number of users accessing the Internet on
+                their smartphones has more than doubled in the past 5 years, as
+                has the number of users downloading and using mobile apps. Of
+                those who use the Internet or email on their phones, more than a
+                third go online primarily through their handheld devices.
+              </p>
+              <p class="about-subtext">
+                Success of your mobile app development initiative will depend on
+                how effectively you have executed on this mobile development
+                process. Much like any other software program, app development
+                is an ongoing process and supporting your mobile products after
+                launch will help maintain its usage and reward you with a
+                multifold return on your investment.
+              </p>
+            </div>
+            <img
+              class="about-img"
+              src="./img/about/Component3.jpg"
+              alt="Споруда"
+              width="650"
+              height="930"
+            />
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <a class="logo" href="./">
+          <img
+            class="logo-img"
+            src="./img/logo.svg"
+            alt="logo"
+            width="83"
+            height="85"
+          />
+          <span class="logo-word">LEMON</span> WHALES
+        </a>
+        <address class="address">
+          <ul class="address-list">
+            <li class="address-item">
+              <a
+                class="address-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.google.com/maps/place/%D0%9A%D0%B0%D0%BB%D1%96%D1%84%D0%BE%D1%80%D0%BD%D1%96%D1%8F,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@37.1842738,-123.7983823,6z/data=!3m1!4b1!4m5!3m4!1s0x808fb9fe5f285e3d:0x8b5109a227086f55!8m2!3d36.778261!4d-119.4179324"
+                >California, USA</a
+              >
+            </li>
+            <li class="address-item">
+              <a
+                class="address-link"
+                href="tel:Phone:(123)4567890"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Phone: (123) 456 7890</a
+              >
+            </li>
+            <li class="address-item">
+              <a
+                class="address-link"
+                href="mailto:info@lemonwhales.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                >info@lemonwhales.org</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img
+                class="social-img"
+                src="./img/social/Facebook.svg"
+                alt="Facebook"
+                width="50"
+                height="50"
+              />
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img
+                class="social-img"
+                src="./img/social/LinkedIn.svg"
+                alt="LinkedIn"
+                width="50"
+                height="50"
+              />
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img
+                class="social-img"
+                src="./img/social/Instagram.svg"
+                alt="Instagram"
+                width="50"
+                height="50"
+              />
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <img
+                class="social-img"
+                src="./img/social/YouTube.svg"
+                alt="Youtube"
+                width="50"
+                height="50"
+              />
+            </a>
+          </li>
+        </ul>
+        <p class="copy">copyright 2022 LEMONWHALES All Rights Reserved/</p>
+      </div>
+    </footer>
   </body>
 </html>
