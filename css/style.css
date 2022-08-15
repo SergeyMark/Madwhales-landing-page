@@ -83,14 +83,11 @@ ul{
 /* HERO */
 
 .hero{
-    margin-bottom: 50px;
-}
-
-.hero-container{
     background: url(../img/hero/hero-bg.jpg) center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 950px;
+    height: 1000px;
+    margin-bottom: 50px;
 }
 
 .container-title{
@@ -202,7 +199,7 @@ ul{
 /* ABOUT */
 
 .about{
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
 }
 
 .about-title{
@@ -250,4 +247,73 @@ ul{
 
 .footer{
     padding-top: 100px;
+
+    background-color: rgba(219, 216, 160, 0.31);;
+}
+
+.footer-logo{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.43;
+
+    display: block;
+        margin: 0 auto;
+    
+    color: var(--premary-color);
+}
+
+.logo-img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.address{
+    padding: 70px 0 65px 0;
+}
+
+.logo-phrase{
+    text-align: center;
+}
+
+.address-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 65px;
+}
+
+.address-item{
+    font-size: 20px;
+    line-height: 1.45;
+    
+    color: var(--premary-color);
+}
+
+.address-item:nth-child(2){
+    margin-left: 85px;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+.social-item{
+    margin: 0 65px;
+}
+
+.copy{
+    font-size: 16px;
+    line-height: 1.43;
+    
+    color: var(--portfolio-about);
+
+    padding: 22px 0; 
+
+    text-align: center;
 }
